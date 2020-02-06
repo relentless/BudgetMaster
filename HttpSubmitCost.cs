@@ -35,7 +35,7 @@ namespace BudgetMaster {
             }
 
             cost.CreationDate = DateTime.UtcNow;
-            cost.User = "Grant"; // get authorised user from http request
+            cost.User = "Bill"; // get authorised user from http request
 
             msg.Add(JsonConvert.SerializeObject(cost));
 
